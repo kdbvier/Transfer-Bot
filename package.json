@@ -1,0 +1,30 @@
+{
+  "name": "transfer_bot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node main_server.js"
+  },
+  "author": "Bikas Lin",
+  "license": "AGPL-3.0-only",
+  "devDependencies": {
+    "@types/node": "^17.0.5",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.5.2",
+    "express": "^4.17.2",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.27",
+    "nodemon": "^2.0.15",
+    "web3": "^1.6.1",
+    "winston": "^3.3.3"
+  }
+}
